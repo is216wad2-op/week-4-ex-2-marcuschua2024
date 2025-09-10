@@ -10,7 +10,9 @@
         }
 
         /* add CSS code here */
-
+.circle {
+            border-radius: 50%;
+        }
     </style>
 
     
@@ -26,6 +28,10 @@
     <script>
         
        // add code here
+        function changeShape() {
+            let div = document.getElementById("div1");
+            div.classList.toggle("circle"); // toggles the class on/off
+        }
 
     </script>
 
